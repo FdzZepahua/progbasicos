@@ -1,0 +1,115 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgba(172, 172, 172, 0.795);
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    height: 7%;
+    background: rgba(4, 78, 216, 0.774);
+    color: #000000;
+}
+
+header h2{
+    padding: 2px;
+}
+
+section {
+    text-align: center;
+    width: 100%;
+    height: 83%;
+}  
+
+.div_list {
+    display: flex;
+    text-align: left;
+    padding: 25px;
+    float: right;
+    width: 57%;
+    overflow: hidden;
+}
+
+.div_list ol li {
+    padding-bottom: 10px;
+}
+
+.div_list ol li a {
+    font-size: 18px;
+    color: #000000;
+    height: 50px;
+    text-decoration: none;
+}
+
+footer {
+    position: fixed;
+    overflow: hidden;
+    left: 0px;
+    bottom: 0px;
+    height: 55px;
+    width: 100%;
+    background: rgb(0, 167, 69, 0.5);
+    border-top: 1px solid black;
+}
+
+.f_principal {
+    font-size: 25px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.sec_dif {
+    text-align: justify;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.dif p {
+    padding-bottom: 25px;
+}
+
+#msg h2{
+    color: rgb(32, 173, 28);
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+#informacion {
+    width: 100%;
+    height: auto;
+}
+
+.div_conten {
+    padding-top: 25px;
+    width: 100%;
+}
+
+.regresar {
+    width: 100%;
+    margin: auto;
+    color: rgb(41, 40, 40);
+    text-align: center;
+}
+
+.regresar a{
+    padding-right: 20px;
+}
+
+.boton button {
+    margin-top: 15px;
+    padding: 6px;
+}
+
+.oculto {
+    display: none;
+  }
+
+  .visible {
+    display: inline;
+  }

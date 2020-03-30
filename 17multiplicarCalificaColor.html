@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+	content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script type="text/javascript" src="js/17-multiplicarcalificar.js"></script>
+  <title>Ejercicio 17 - Tablas de Multiplicar</title>
+</head>
+
+<body>
+  <section>
+    <form>
+	  Selecciona que n&uacute;mero de tabla
+	  <select name="opTabla" id="opTabla">
+	    <option>2</option>
+		<option>3</option>
+		<option>4</option>
+		<option>5</option>
+		<option>6</option>
+		<option>7</option>
+		<option>8</option>
+		<option>9</option>
+		<option>10</option>
+	  </select>
+		<p><input type="button" value="Ejecutar"
+			onclick="muestra(opTabla.value, tabla, document.getElementById('contenido'));" />
+		<br/>
+		</p>
+	
+		<div id="contenido" style="visibility:hidden" align="center">
+		  <table id="tabla" border="2" align="center">
+		    <thead>
+			  <th>Operaci&oacute;n</th>
+			  <th>Resultado</th>
+			  <th>Calificacion</th>
+		    </thead>
+		  </table>
+		  <br><br>
+		  <input type="button" value="Calificar Examen" onclick="califica(opTabla.value, tabla);" />
+	    </div>
+	</form>
+  </section>
+  
+  <footer class="regresar">
+	<a href="16AnadeTexto.html"> <img src="img/previous.png"></a>
+	<a href="index.html"><img src="img/home.png"></a>
+	<a href="18fecha-signo.html"><img src="img/forward.png"></a>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+	content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+  <meta name="description" content="PQG">
+  <meta name="keywords" content="">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script type="text/javascript" src="js/11-cadenaspatrones.js"></script>
+  <title>Ejercicio 11 - Control submit por evento formulario</title>
+</head>
+
+<body>
+  <section>
+	<h2>Esta p&aacute;gina verifica que el RFC sea correcto</h2>
+	  <div class="boton">
+		<form action="">
+			
+			RFC <input type="text" name="txtRFC" class="rfc" maxlength="13" size="15"/>
+			<br/>
+			<button type="submit" class="boton" onclick="return valida(txtRFC);">Validar RFC</button>
+		</form>
+		<div id="msg">
+
+		</div>
+	  </div>
+  </section>
+  
+  <footer class="regresar">
+	<a href="10Cadenaspalindoromo.html"> <img src="img/previous.png"></a>
+	<a href="index.html"><img src="img/home.png"></a>
+	<a href="12BasicoDOM.html"><img src="img/forward.png"></a>
+  </footer>
+
+</body>
+
+</html>
